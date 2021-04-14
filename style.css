@@ -10,16 +10,19 @@ h1{
 }
 
 .cabecera{
+   width: 100%;
+   height: 200px;
    background-color: orange;
-   color: black;
-   font-weight: bold;
-   margin: 0;
-   padding: 0.5em;
+   font-size: 3rem;
    text-align: center;
-   font-size: 30px;
 }
 
-
+body{
+   
+    background-color: rgb(151, 149, 0);
+    
+ ;
+}
  .main-nav {
     margin: 0 0 0 1em;
     font-weight: normal ;
@@ -124,9 +127,6 @@ figcaption{
 
 
 
-body{
-    background-color:gold;
-}
 
 li{
     color: black;
@@ -141,8 +141,8 @@ li{
 }
 
 main{
-    margin-top: 75px;
-    margin-bottom: 5px;
+    width:100% ;
+    height: 300px;
 }
 
 .video{
@@ -199,5 +199,13 @@ footer{
     font-size: 20px;
     margin-top: 40px;
  }
-    
-  
+    html{
+        font-size: 62.5%;
+    }
+ .p{
+     font-size: 1.6rem;
+ } 
+
+ .bebe div{
+     font-size: 1.6rem;
+ }
